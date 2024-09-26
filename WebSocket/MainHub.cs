@@ -1678,7 +1678,7 @@ public class MainHub:Hub
         for (int i = 0; i <= Locations.Count-1; i++)
         {
             await Clients.Caller.SendAsync("ReceiveLocation", new { Lat = Locations[i].Lat, Lon = Locations[i].Lon });
-            await Task.Delay(150); // Simulate long-running task
+            await Task.Delay(1000); // Simulate long-running task
         }
     }
 
