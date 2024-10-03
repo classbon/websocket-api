@@ -1,0 +1,5 @@
+/.vs
+/WebSocket/.config
+/WebSocket/bin
+/WebSocket/obj
+/WebSocket/Properties
