@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
                       policy =>
                       {
                           policy.AllowAnyHeader()
-                          .WithOrigins("http://localhost:3000", "https://classbon.com", "https://staging.classbon.com", "https://nafisexpress.com")
+                          .WithOrigins("http://localhost:3000", "https://classbon.com", "https://staging.classbon.com", "https://nafisexpress.com", "https://websocket.classbon.com")
                             .AllowAnyMethod()
                             .AllowCredentials();
                       });
